@@ -70,9 +70,9 @@ export default function Home() {
             ></motion.div>
 
             <div className="flex gap-[1vw]">
-              <Link href="/log-in">
+              <Link href="/sign-up">
                 <h1 className="text-zinc-100 hover:text-zinc-300 text-[1vw] px-[0.5vw] py-[0.2vw] rounded-full border w-[4.5vw] text-center hover:border-zinc-300">
-                  LogIn
+                  SignUp
                 </h1>
               </Link>
 
@@ -121,7 +121,7 @@ export default function Home() {
 
               <div className=" absolute flex flex-col justify-between top-0 left-0 h-full w-full p-[1vw] hover:p-[1.5vw] transition-all duration-500">
                 <div className="flex justify-between items-center w-full ">
-                  <span>Connect Us</span>
+                  <span className="text-slate-700 font-bold">Connect Us</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -165,7 +165,7 @@ export default function Home() {
               <div></div>
 
               <div className="flex justify-between items-center w-full">
-                <h1 className="text-[2vw]">Explore Virtual Classroom</h1>
+                <h1 className="text-[2vw] text-slate-700">Explore Virtual Classroom</h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -315,25 +315,9 @@ export default function Home() {
               delivering content that evolves with you. Unlock your potential
               with a smarter way to learn!
             </h4>
-            <Link href="/">
+            <Link href="/sign-up">
               <div className="flex justify-center items-center gap-[15.5px] md:px-[18px] px-[14px] py-[8px] bg-filledBg md:py-[10px] rounded-full border-primary border-[1px] w-fit text-[12px] md:text-[16px]">
                 <h3 className="text-textColor">Join Now</h3>
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="13"
-                    viewBox="0 0 12 13"
-                    fill="none"
-                  >
-                    <path
-                      d="M0.6885 12.2885L0 11.6L10.0807 1.5H0.7885V0.5H11.7885V11.5H10.7885V2.20775L0.6885 12.2885Z"
-                      fill="none"
-                      className="fill-current"
-                      style={{ fill: "var(--text-color)" }}
-                    />
-                  </svg>
-                </span>
               </div>
             </Link>
           </div>
